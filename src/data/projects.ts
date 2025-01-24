@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'site',
+    title: 'site4',
     image: '/images/motion.png',
     url: 'https://framer-motion-tutorial-mu.vercel.app/',
   },

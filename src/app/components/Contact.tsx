@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* セクション タイトル*/}
         <div className="inline-block">
-          <p className="bg-cadetblue text-white text-sm font-medium py-3 px-5 rounded-full flex items-center gap-2 mb-10">
+          <p className="bg-cadetblue text-white text-sm font-bold py-3 px-5 rounded-full flex items-center gap-2 mb-10 ">
             <span>
               <AiFillBulb />
             </span>
