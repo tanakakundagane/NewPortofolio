@@ -2,12 +2,10 @@
 import React, { useRef } from "react";
 import {
   AiFillBulb,
-  AiFillFacebook,
   AiFillInstagram,
-  AiFillTwitterSquare,
-  AiFillYoutube,
 } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Contact: React.FC = () => {
   const form = useRef<HTMLFormElement | null>(null);
@@ -75,13 +73,7 @@ const Contact: React.FC = () => {
                     <AiFillInstagram />
                   </a>
                   <a href="" className="text-3xl text-darkblue">
-                    <AiFillTwitterSquare />
-                  </a>
-                  <a href="" className="text-3xl text-darkblue">
-                    <AiFillFacebook />
-                  </a>
-                  <a href="" className="text-3xl text-darkblue">
-                    <AiFillYoutube />
+                  <FaXTwitter />
                   </a>
                 </div>
               </div>
