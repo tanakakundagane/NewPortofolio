@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="flex gap-4 max-md:justify-center mt-5">
               <Link href={"#projects"}>
                 <button className="bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75 cursor-pointer lg:px-4 text-lg md:text-3xl font-medium">
-                  開発実績
+                  サンプル
                 </button>
               </Link>
               <Link href={"#contact"}>

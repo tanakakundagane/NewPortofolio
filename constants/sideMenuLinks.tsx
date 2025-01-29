@@ -16,7 +16,7 @@ export const sideMenuLinks = [
   },
   {
     route:'#projects',
-    label:'開発実績',
+    label:'サンプル',
     sectionId:'projects'
   },
   {

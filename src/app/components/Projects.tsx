@@ -10,7 +10,7 @@ const Projects = () => {
           <span className="pr-1">
             <AiFillBulb className="w-4 h-4" />
           </span>
-          開発実績
+          サンプル
         </p>
       </div>
 
