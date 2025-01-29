@@ -52,22 +52,22 @@ const Contact: React.FC = () => {
         {/* 左 */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div>
-            <p>
+            <p className="font-bold">
               日々新しいプロジェクトを作成しています。
               <br />
               ご相談お問い合わせはこちらからお気軽にご相談ください。
               <br />
               メッセージには可能な限り早く返信させていただきます。
             </p>
-            <p className="mt-12">連絡先はこちら</p>
+            <p className="mt-12 font-bold">連絡先はこちら</p>
             <h4 className="text-lg font-medium text-darkblue">
-              origin.doc@email.com
+              s20970059@nucba.ac.jp
             </h4>
 
             {/* sns */}
             <div className="mt-12">
               <div className="flex flex-col gap-2">
-                <h5>SNS</h5>
+                <h5 className="font-bold">SNS</h5>
                 <div className="flex gap-5">
                   <a href="" className="text-3xl text-darkblue">
                     <AiFillInstagram />

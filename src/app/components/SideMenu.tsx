@@ -52,6 +52,13 @@ const SideMenu = () => {
   }, [isOpen]);
 
   return (
+    <>
+    {isOpen && (
+        <div
+          className="fixed top-0 left-0 w-full h-full bg-black/50 z-40"
+          onClick={closeMobileMenu} // クリックでメニューを閉じる
+        />
+      )}
     <section
       className={` fixed left-0 top-0 z-50 flex h-screen max-w-[300px] flex-col justify-between py-10 px-[20px] lg:px-16 max-lg:max-w-[146px] bg-white
       ${isOpen ? "max-lg:block" : "max-md:hidden"}`}
@@ -110,6 +117,7 @@ const SideMenu = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

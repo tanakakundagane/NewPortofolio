@@ -28,7 +28,7 @@ const TopMenu = () => {
           </Link>
           <div className="text-2xl z-50" onClick={openMobileMenu}>
             {/* トグル */}
-            {isOpen ? <IoMdClose /> : <RiMenu3Fill />}
+            {isOpen ? <IoMdClose className="text-white"/> : <RiMenu3Fill />}
           </div>
         </div>
         {/* 下 */}
