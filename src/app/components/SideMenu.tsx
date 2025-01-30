@@ -70,9 +70,9 @@ const SideMenu = () => {
             src={'/images/Astro.png'}
             width={100}
             height={100}
-            alt="ORIGIN.Doc Image"
+            alt="AstoroImage"
           />
-          <p className="font-bold text-darkblue">Asutoro.code</p>
+          <p className="font-bold text-darkblue">Astro.code</p>
         </div>
 
         {/* 中 サイトメニュー*/}
@@ -113,7 +113,7 @@ const SideMenu = () => {
             </a>
             
           </div>
-          <p className="max-lg:hidden">© Asutoro.code</p>
+          <p className="max-lg:hidden">© Astro.code</p>
         </div>
       </div>
     </section>

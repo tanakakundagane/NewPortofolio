@@ -23,8 +23,8 @@ const TopMenu = () => {
             src={'/images/Astro.png'}
             width={50}
             height={100}
-            alt="AsutoroImage"/>
-            <h1 className="font-bold text-3xl text-cadetblue pt-4 px-2">Astoro.code</h1>
+            alt="AstroImage"/>
+            <h1 className="font-bold text-3xl text-cadetblue pt-4 px-2">Astro.code</h1>
           </Link>
           <div className="text-2xl z-50" onClick={openMobileMenu}>
             {/* トグル */}

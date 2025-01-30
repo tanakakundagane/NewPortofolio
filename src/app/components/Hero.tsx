@@ -12,9 +12,9 @@ const Hero = () => {
           <div className="text-4xl lg:text-6xl">
             <h1 className="font-medium">Leave Your Website</h1>
             <span className="font-bold text-cadetblue">Development</span>
-            <h2>to Astoro.code</h2>
+            <h2>to Astro.code</h2>
             <p className="mt-5 text-xl font-bold">
-              ホームページ制作ならAstoro.codeにお任せください！デザインから機能開発まで、すべての要件に対応します。
+              ホームページ制作ならAstro.codeにお任せください！デザインから機能開発まで、すべての要件に対応します。
             </p>
 
             <div className="flex gap-4 max-md:justify-center mt-5">
