@@ -23,6 +23,24 @@ export const projects = [
     image: '/images/motion.png',
     url: 'https://framer-motion-tutorial-mu.vercel.app/',
   },
+  {
+    id: 5,
+    title: 'site5',
+    image: '/images/dietsalon.png',
+    url: 'https://dietsalon-lesn.vercel.app/',
+  },
+  {
+    id: 6,
+    title: 'site6',
+    image: '/images/doctor.png',
+    url: 'https://coconala-doctor.vercel.app/',
+  },
+  {
+    id: 7,
+    title: 'site7',
+    image: '/images/tanakainterior.png',
+    url: 'https://tanakainterior-indol.vercel.app/',
+  },
   // {
   //   id: 5,
   //   title: 'サイト5',
